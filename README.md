@@ -14,7 +14,7 @@ Implemented thus far are:
 More to come...
 
 ## Usage
-DsFun.exe
--enter an option from above
--follow the prompts
--this is a really simple program
+```DsFun.exe
+<enter an option from above>
+<follow the prompts>
+<this is a really simple program>```
