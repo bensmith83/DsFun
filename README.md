@@ -15,6 +15,6 @@ More to come...
 
 ## Usage
 DsFun.exe
-<enter an option from above>
-<follow the prompts>
-<this is a really simple program>
+\<enter an option from above\>
+\<follow the prompts\>
+\<this is a really simple program\>
