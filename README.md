@@ -22,6 +22,7 @@ DsFun.exe
 <follow the prompts>
 <this is a really simple program>
 ```
+Precompiled binary is available at: [DsFun.exe](/bin/Debug/DsFun.exe)
 
 ## Example
 DsGetDcName & DsEnumerateDomainTrusts
