@@ -3,6 +3,8 @@ DsFun seeks to implement Microsoft Directory Services functions in C#. Much borr
 
 This is mostly just to provide a quick implementation to show how it can be done in C#. This is not full featured. At some point I'll change it to take user input for the DC name/IP, but for now it defaults to 192.168.0.180.
 
+There are already great tools to do this with Powershell and various other methods, but I wasn't aware of anything in C#. If there's interest, I'll add features, but really I just wanted to see how easy it was.
+
 ## Functions
 Implemented thus far are:
 1. DsGetDcName - returns the name of a DC in the domain. takes optional DC name and/or domain name
