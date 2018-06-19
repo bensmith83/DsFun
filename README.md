@@ -5,10 +5,10 @@ This is mostly just to provide a quick implementation to show how it can be done
 
 ## Functions
 Implemented thus far are:
-1. DsGetDcName
-2. DsEnumerateDomainTrusts
-4. DsGetDCSiteCoverage
-23. DsGetDomainControllerInfo
+1. DsGetDcName - returns the name of a DC in the domain. takes optional DC name and/or domain name
+2. DsEnumerateDomainTrusts - returns trust data for the domain. 
+4. DsGetDCSiteCoverage - returns site names for all sites covered by DC. takes optional DC name
+23. DsGetDomainControllerInfo - retrieves information about the domain controller. takes a DC name and an optional domain name
 24. DsBindWithCred
 
 More to come...
@@ -20,3 +20,9 @@ DsFun.exe
 <follow the prompts>
 <this is a really simple program>
 ```
+
+## Example
+DsGetDcName & DsEnumerateDomainTrusts
+![DsFun Options 1 & 2](/img/dsfun_opt_1_2.png?raw=true "DsFun Options 1 & 2")
+DsGetDCSiteCoverage & DsGetDomainControllerInfo
+![DsFun Options 4 & 23](/img/dsfun_opt_1_2.png?raw=true "DsFun Options 4 & 23")
